@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!--For nav bar-->
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--For home section-->
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm W. W. Anjana Hemal</p>
+        <img src="images/profile.png" alt="Profile Image">    
+    </section>
+
+     <!--For about section-->
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am W. W. Anjana Hemal. I'm from Bandaragama. I'm studying at University Of Sri Jayewardanepura. 
+            I have participated in survays carried out by JICA on waste managment and also indroduction of app on Smart Citizen in area of Kotte. 
+            My interest areas of studies is Quality Assurance, Business Analysis and Project Msanagement eventually. </p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/anjana-hemal-257244232" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/AnjanaHemal" target="_blank">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+     <!--For skill section-->
+
+     <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/html.png" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/java.png" alt="Java">
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/mysql.png" alt="MySQL">
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/python.png" alt="Python">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/csharp.png" alt="C#">
+                <h3>C#</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/testautomation.png" alt="Test Automation">
+                <h3>Test Automation</h3>
+            </div>
+        </div>
+    </section>
+
+     <!--For project section-->
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="images/project1.png" alt="Project 1">
+                <h3>InternConnect Pro - Online Internship Confirmation System
+                </h3>
+                <p>InternConnect Pro is an innovative project designed to streamline and enhance
+                    the internship confirmation process. The backend is powered by Java and
+                    Spring Boot, providing robust and secure functionality. On the frontend, React
+                    was employed to deliver a dynamic and user-friendly interface.</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.png" alt="Project 2">
+                <h3>Pharmacy Management System</h3>
+                <p>This Pharmacy Management System developed using C# Windows Forms
+                    Application. This innovative software streamlines and enhances the
+                    efficiency of pharmacy operations by providing a user-friendly interface for
+                    managing inventory, tracking sales, and handling prescription records
+                    </p>
+            </div>
+            <div class="project">
+                <img src="images/project3.png" alt="Project 3">
+                <h3>Plastic management - Public Opinion Survey</h3>
+                <p>Contributed to conduct and successfully complete a three month long
+                    public opinion survey for the project for strengthening plastic management
+                    capacity in Sri Lanka done under the EX Research Institute Ltd. Guided by
+                    JICA and the Central Environmental Authority Sri Lanka
+                    10/2023 - 01/2024</p>
+            </div>
+        </div>
+    </section>
+
+     <!--For contact section-->
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
